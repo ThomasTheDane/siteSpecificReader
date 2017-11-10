@@ -1,0 +1,14 @@
+Speedreader 
+
+configs:
+	dark vs. light theme 
+	doesn't scroll / scrolls continually / scrolls after section finished 
+	
+
+
+Todos:
+	Get it into compressed format 
+	abstract it with api 
+	put it into a chrome extension 
+	feed content in 
+	enable scalable configurations / interactions 
