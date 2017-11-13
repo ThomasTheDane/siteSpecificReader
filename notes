@@ -3,7 +3,7 @@ Speedreader
 configs:
 	dark vs. light theme 
 	doesn't scroll / scrolls continually / scrolls after section finished 
-	
+
 
 
 Todos:
@@ -12,3 +12,4 @@ Todos:
 	put it into a chrome extension 
 	feed content in 
 	enable scalable configurations / interactions 
+	consider using the local storage stuff but make it article specific 

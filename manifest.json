@@ -1,0 +1,22 @@
+{
+  "name": "Medium Reader",
+  "description": "Speed reader for Medium",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+        "matches": ["*://medium.com/*"],
+        "js": ["jquery-3.0.0.min.js", "content_script.js"],
+        "run_at": "document_end"
+    }
+  ],
+  "browser_action": {
+    "default_title": "Read"
+  },
+  "web_accessible_resources": [
+    "speedReader.html"
+  ],
+  "manifest_version": 2
+}
